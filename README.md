@@ -1,1 +1,4 @@
-This work propose a novel sentiment lexicon enhanced attention-based LSTM for sentiment classification
+Sentiment lexicon attention based LSTM for sentence-level Sentiment Classification
+Abstract
+Neural networks models have obtained great success recently for sentence-level sentiment classification. However, most network models either don't fully employ linguistic knowledge such as sentiment lexicon; or depend on expensive phrase-level annotation such as Tree-LSTM. In our work, we propose a novel sentiment lexicon attention based LSTM model to improve the performance of sentence-level sentiment classification. Our method successfully introduces sentiment lexicon into neural networks via two kinds of attention mechanisms including single-head and multi-head attention. We conduct extensive experiments on MR and SST datasets. The experimental results show that our model achieved comparable or better performance than state-of-the-art work.
+
