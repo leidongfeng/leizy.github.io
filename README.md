@@ -1,3 +1,9 @@
+# Sentiment Lexicon Enhanced Attention-based LSTM for Sentiment Classification
+
+
+Deep neural networks have gained great success recently for sentiment classification. However, these approaches  do not  fully exploit the linguistic knowledge or rely heavily on expensive phrase-level annotation.. 
+In this paper, we propose a novel sentiment lexicon enhanced attention-based LSTM (SLEA-LSTM) model to improve the performance of sentence-level sentiment classification. 
+Our method successfully integrates sentiment lexicon into deep neural networks via single-head or multi-head attention mechanisms. 
 We conduct extensive experiments on MR and SST datasets. 
 The experimental results show that our model achieved comparable or better performance than the state-of-the-art methods.
 
@@ -12,5 +18,6 @@ To address the aforementioned limitation,  in this paper, we propose a novel sen
 	First, we propose a novel sentiment lexicon enhanced attention-based LSTM (SLE-LSTM) model for sentence-level sentiment classification. The model integrates sentiment lexicon into neural networks, which fully employs previous linguistic knowledge to improve the performance of sentiment classification.  
 	Second, instead of (Qian et al., 2017) which imposes linguistic roles into neural networks by applying linguistic regularization on intermediate outputs with KL divergence, we adopt attention mechanism to integrate sentiment lexicon into deep neural networks. At the same time, we perform single-head and multi-head attention mechanisms respectively. To the best of our knowledge, our work is the first one that explores incorporating sentiment lexicon with neural networks via attention mechanism for sentence-level sentiment classification.   
 	We conduct experiments on MR and SST datasets to verify the effectiveness of our model. The experimental results show that our model achieved comparable or better performance than the state-of-the-art methods.
+
 
 
