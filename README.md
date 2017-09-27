@@ -19,7 +19,7 @@ To address the aforementioned limitation,  in this paper, we propose a novel sen
 	Second, instead of (Qian et al., 2017) which imposes linguistic roles into neural networks by applying linguistic regularization on intermediate outputs with KL divergence, we adopt attention mechanism to integrate sentiment lexicon into deep neural networks. At the same time, we perform single-head and multi-head attention mechanisms respectively. To the best of our knowledge, our work is the first one that explores incorporating sentiment lexicon with neural networks via attention mechanism for sentence-level sentiment classification.   
 	We conduct experiments on MR and SST datasets to verify the effectiveness of our model. The experimental results show that our model achieved comparable or better performance than the state-of-the-art methods.
 
-##Model description
+## Model description
 ![](model.jpg)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figure 1: The overall architecture of SLEA-LSTM.
 
