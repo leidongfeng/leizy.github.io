@@ -21,7 +21,7 @@ To address the aforementioned limitation,  in this paper, we propose a novel sen
 
 ## Model description
 ![](model.jpg)
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;;&emsp;Figure 1: The overall architecture of SLEA-LSTM.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Figure 1: The overall architecture of SLEA-LSTM.
 
 Our model mainly consists of three parts. The first part uses two independent LSTM layers to convert the sequence of input word embeddings into two sequences of hidden states for context words and sentiment words respectively. The second part mainly computes attention scores using single-head or multi-head attention mechanisms. The third part predicts the sentiment label with the final sentence representation. The overall architecture of SLEA-LSTM model is shown in Figure1.
 
